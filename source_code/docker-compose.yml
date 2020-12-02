@@ -1,0 +1,16 @@
+version: '2'
+services:
+    web:
+        image: shivergard/docker-webserver-71
+        ports:
+            - 80:80
+            - 86:86
+        volumes:
+            - ./web:/var/www
+            - ./storage:/opt/storage
+    mysql:
+        image: mariadb:latest
+        env_file:
+            - ./.mysql.env
+        volumes:
+            - ./storage/mysql:/var/lib/mysql

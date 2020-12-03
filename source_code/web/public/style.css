@@ -1,0 +1,444 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.main_text_row {
+  margin: 20px;
+}
+.registreties, .button_b {
+  text-align: center;
+}
+.btn {
+  font-size: 2rem !important;
+  margin-bottom: 30px;
+}
+.btn-default {
+  background-color: lightgray !important;
+  font-size: 1rem !important;
+}
+.row {
+  margin-top: 20px;
+}
+.nav_buttons {
+  background-color: #e1ca9b;
+}
+.nav-link {
+  color: #867960
+}
+.registration_container {
+  background-color: #e1ca9b;
+  margin-bottom: 20px;
+}
+
+.logo_button {
+  width: 40% !important;
+}
+
+
+.main_text_row {
+  margin: 20px;
+}
+.row {
+  margin-top: 20px;
+}
+.nav_buttons {
+  background-color: #e1c99b;
+}
+.nav-link {
+  font-family: Helvetica, Arial;
+  color: #696969
+}
+.nav-link:hover {
+  color: #fff;
+}
+/*Start of my style*/
+.background {
+  background-color: #e1c99b;
+}
+.Darba_sludinājums {
+  font-family: "Avenir Next Condensed", Helvetica, Arial;
+  font-size: 44px;
+  font-weight: 600;
+  color: #000000;
+  text-indent: 10px;
+}
+.Darba_amata_nosaukums {
+  font-family: Helvetica, Arial;
+  color: #000000;
+  font-weight: 700;
+  font-size: 22px;
+  text-indent: 10px;
+}
+.Atrašanās_vieta {
+  font-family: Helvetica, Arial;
+  color: #000000;
+  font-size: 17px;
+  text-indent: 10px;
+  padding-top: 1em;
+}
+.Darba_amata_apraksts {
+  font-family: Helvetica, Arial;
+  color: #000000;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  text-indent: 44px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.line {
+  border: 1px solid;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.wish_logo {
+  width: 70px;
+  height: 70px;
+  background-image: url(img/wish.jpg);
+  background-size: 100%;
+  margin-left: 5px;
+}
+
+.comments {
+  font-family: Helvetica, Arial;
+  font-size: 15px;
+  border: 3px solid#000;
+  width:300px;
+  height:150px;
+  padding:2%;
+}
+
+
+/* .site-footer
+{
+  background-color: #e1ca9b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  position: fixed;
+  width: 100%;
+}
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+} */
+
+.main_text_row {
+  margin: 20px;
+}
+.row {
+  margin-top: 20px;
+}
+.nav_buttons {
+  background-color: #e1c99b;
+}
+.nav-link {
+  font-family: Helvetica, Arial;
+  color: #696969
+}
+.nav-link:hover {
+  color: #fff;
+}
+/*Start of my style*/
+.background {
+  background-color: #e1c99b;
+}
+.Darba_sludinājumi {
+  font-family: "Avenir Next Condensed", Helvetica, Arial;
+  font-weight: 600;
+  color: #000000;
+  text-indent: 10px;
+}
+/*filter*/
+.search-job {
+  padding: 30px 0;
+  margin: -50px 6% 50px;
+  background-color: #e1c99b;
+}
+
+.search-job .form-control{
+  max-width: 250px;
+  display: inline-flex;
+  margin: 10px 5px;
+  border-radius: 0;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.search-job .btn-primary {
+  border-radius: 0;
+  box-shadow: none !important;
+  border: none;
+  display: inline-flex;
+  margin: 5px;
+  padding: 5px 20px;
+}
+
+/*------jobs-------*/
+
+#jobs {
+  background: #f8f8fa;
+  padding: 50px 0;
+}
+
+.company-details {
+  box-shadow: 0 2px 70px 0 rgba(110,130,208, .18);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.job-update {
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.job-update .fas {
+  margin-top: 5px;
+  margin-right: 10px;
+  color: #e1c99b;
+}
+
+.job-update small {
+  background: #efefef;
+  padding: 1px 5px;
+  margin: 0 5px;
+}
+.job-update p {
+  margin-bottom: 0 !important;
+}
+
+.job-update a {
+  text-decoration: none !important;
+  color: #b6b6b6;
+  float: right;
+}
+
+.apply-btn {
+  height: 70px;
+  background-image: linear-gradient(to right, #e1c99b, #e1c99b);
+  padding: 7px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.apply-btn .btn-primary {
+  padding: 0 30px;
+  float: right;
+  border-radius: 0;
+  box-shadow: none !important;
+  /* background: transparent; */
+  /* border: 1px solid #fff; */
+}
+
+/*Pages&arows*/
+
+.pagelink li {
+  height: 25px;
+  width: 25px;
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.pagelink li:hover, .active {
+  color: #fff;
+  background-image: linear-gradient(to right, #e1c99b, #e1c99b);
+}
+
+.jumbotron {
+  background-color: #e1c99b;
+}
+
+.form {
+  margin:10px;
+  padding:10px;
+  border:3px black solid;
+  border-radius:10px;
+}
+.my-form{
+  margin:10px;
+}
+
+.my-form label{
+  display:inline;
+}
+
+.my-form input[type="text"], .my-form textarea{
+  padding:8px;
+  width:100%;
+}
+
+.my-form input[type="submit"]{
+  background-size: 100px;
+  margin-left:87%;
+}
+
+.form-group-checks{
+  font-weight: bold;
+}
+
+.punkti{
+  font-size:20px;
+  text-align-last: justify;
+}
+.heading {
+  text-align: center;
+}

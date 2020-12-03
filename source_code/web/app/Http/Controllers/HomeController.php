@@ -23,14 +23,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('home' , ['page' => 'Profils']);
     }
 
     public function company(){
-        return view('company');   
+        return view('company' , ['page' => 'Uzņēmuma profils']);   
     }
 
     public function profile(){
-        return view('profile');
+        return view('profile' , ['page' => 'Profils']);
     }
 }

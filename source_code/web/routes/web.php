@@ -14,13 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome' , ['page' => 'Sākums']);
 });
 Route::get('/about_us', function () {
-    return view('about');
+    return view('about', ['page' => 'Par mums']);
 });
 Route::get('/contact', function () {
-    return view('contact');
+    return view('contact' , ['page' => 'Kontakti']);
 });
 
 Auth::routes();

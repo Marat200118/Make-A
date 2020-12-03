@@ -6,7 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ (isset($page) ? $page : config('app.name', 'Laravel')) }}</title>
   </head>
   <body>
     <div class="navbar_container container">

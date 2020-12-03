@@ -39,7 +39,9 @@ class VacancyController extends Controller
             $vacancy = Vacancy::latest()->paginate($perPage);
         }
 
-        return view('moderator.vacancy.index', compact('vacancy'));
+        $page = "Darba piedāvājumi";
+
+        return view('moderator.vacancy.index', compact('vacancy' , 'page'));
     }
 
     /**
@@ -82,7 +84,9 @@ class VacancyController extends Controller
     {
         $vacancy = Vacancy::findOrFail($id);
 
-        return view('moderator.vacancy.show', compact('vacancy'));
+        $page = "Darba sludinājums";
+
+        return view('moderator.vacancy.show', compact('vacancy' , 'page'));
     }
 
     /**

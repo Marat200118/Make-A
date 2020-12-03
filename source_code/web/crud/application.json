@@ -1,0 +1,28 @@
+{
+    "fields": [
+        {
+            "name": "vacancy_id",
+            "type": "integer"
+        },
+        {
+            "name": "user_id",
+            "type": "integer"
+        },
+
+        {
+            "name": "description",
+            "type": "string"
+        },
+
+        {
+            "name": "document_path",
+            "type": "string"
+        }
+    ],
+    "validations": [
+        {
+            "field": "description",
+            "rules": "required|min:3"
+        }
+    ]
+}

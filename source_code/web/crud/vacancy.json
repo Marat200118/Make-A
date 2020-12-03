@@ -1,0 +1,42 @@
+{
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+
+        {
+            "name": "description",
+            "type": "string"
+        },
+
+        {
+            "name": "time",
+            "type": "string"
+        },
+
+        {
+            "name": "salary",
+            "type": "string"
+        },
+
+        {
+            "name": "location",
+            "type": "string"
+        },
+        {
+            "name": "points",
+            "type": "integer"
+        },
+        {
+            "name": "company_id",
+            "type": "integer"
+        }
+    ],
+    "validations": [
+        {
+            "field": "name",
+            "rules": "required|min:3"
+        }
+    ]
+}

@@ -14,7 +14,7 @@
         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
           <div class="logo">
             <a href = "/">
-              <img class = "logo_button" src="wish.jpg" href="/">
+              <img class = "logo_button" src="/wish.jpg" href="/">
             </a>
           </div>
         </div>
@@ -22,7 +22,7 @@
           <div class="nav_buttons">
             <ul class="nav nav-pills nav-fill">
               <li class="nav-item">
-                <a class="nav-link" href="offer.html" tabindex="-1" aria-disabled="true">Vakances</a>
+                <a class="nav-link" href="/moderator/vacancy" tabindex="-1" aria-disabled="true">Vakances</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/about_us" tabindex="-1" aria-disabled="true">Par mums</a>
@@ -30,9 +30,12 @@
               <li class="nav-item">
                 <a class="nav-link" href="/contact" tabindex="-1" aria-disabled="true">Kontakti</a>
               </li>
+              @guest
+              @else
               <li class="nav-item">
-                <a class="nav-link" href="profile_student.html" tabindex="-1" aria-disabled="true">Mans profils</a>
+                <a class="nav-link" href="/profile" tabindex="-1" aria-disabled="true">Mans profils</a>
               </li>
+              @endguest
             </ul>
           </div>
         </div>

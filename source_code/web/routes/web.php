@@ -26,3 +26,10 @@ Route::get('/contact', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/profile', 'HomeController@profile')->name('profile');
+
+Route::get('/login/company', 'HomeController@company')->name('company_home');
+
+Route::resource('moderator/company', 'Moderator\CompanyController');
+Route::resource('moderator/vacancy', 'Moderator\VacancyController');
+Route::resource('moderator/application', 'Moderator\ApplicationController');

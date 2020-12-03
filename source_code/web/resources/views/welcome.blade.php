@@ -29,12 +29,12 @@
       </div>
       <div class="buttons_row row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 button_b">
-          <a href="profile_student.html">
+          <a href="/login">
             <button type="button" class="btn btn-light">Darba Meklētājs</button>
           </a>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 button_b">
-          <a href="darba_d.html">
+          <a href="/login/company">
             <button type="button" class="btn btn-light">Darba Devējs</button>
           </a>
         </div>

@@ -20,13 +20,13 @@ html, body {
   margin-top: 20px;
 }
 .nav_buttons {
-  background-color: #e1ca9b;
+  background-color: #277d27;
 }
 .nav-link {
   color: #867960
 }
 .registration_container {
-  background-color: #e1ca9b;
+  background-color: #277d27;
   margin-bottom: 20px;
 }
 
@@ -42,7 +42,7 @@ html, body {
   margin-top: 20px;
 }
 .nav_buttons {
-  background-color: #e1c99b;
+  background-color: #277d27;
 }
 .nav-link {
   font-family: Helvetica, Arial;
@@ -53,7 +53,7 @@ html, body {
 }
 /*Start of my style*/
 .background {
-  background-color: #e1c99b;
+  background-color: #277d27;
 }
 .Darba_sludinājums {
   font-family: "Avenir Next Condensed", Helvetica, Arial;
@@ -98,7 +98,7 @@ html, body {
 .wish_logo {
   width: 70px;
   height: 70px;
-  background-image: url(img/wish.jpg);
+  background-image: url(img/Green-Box.png);
   background-size: 100%;
   margin-left: 5px;
 }
@@ -287,7 +287,7 @@ html, body {
   margin-top: 20px;
 }
 .nav_buttons {
-  background-color: #e1c99b;
+  background-color: #277d27;
 }
 .nav-link {
   font-family: Helvetica, Arial;
@@ -298,7 +298,7 @@ html, body {
 }
 /*Start of my style*/
 .background {
-  background-color: #e1c99b;
+  background-color: #277d27;
 }
 .Darba_sludinājumi {
   font-family: "Avenir Next Condensed", Helvetica, Arial;
@@ -310,7 +310,7 @@ html, body {
 .search-job {
   padding: 30px 0;
   margin: -50px 6% 50px;
-  background-color: #e1c99b;
+  background-color: #277d27;
 }
 
 .search-job .form-control{
@@ -353,7 +353,7 @@ html, body {
 .job-update .fas {
   margin-top: 5px;
   margin-right: 10px;
-  color: #e1c99b;
+  color: #277d27;
 }
 
 .job-update small {
@@ -373,7 +373,7 @@ html, body {
 
 .apply-btn {
   height: 70px;
-  background-image: linear-gradient(to right, #e1c99b, #e1c99b);
+  background-image: linear-gradient(to right, #277d27, #277d27);
   padding: 7px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -400,11 +400,11 @@ html, body {
 
 .pagelink li:hover, .active {
   color: #fff;
-  background-image: linear-gradient(to right, #e1c99b, #e1c99b);
+  background-image: linear-gradient(to right, #277d27, #277d27);
 }
 
 .jumbotron {
-  background-color: #e1c99b;
+  background-color: #277d27;
 }
 
 .form {
